@@ -21,27 +21,16 @@ Each client can:
 - View all guest bookings
 - Get notified when a room of the desired type becomes available (if added to the notification list)
 
-## Project Structure
-
-The system consists of the following main components:
-
-- **HRServer**: The server managing the hotel room availability and client requests.
-- **HRClient**: The client application that allows users to interact with the server.
-- **HRInterface**: The remote interface defining the methods that clients can invoke on the server.
-- **HRImpl**: The implementation of the remote interface on the server side.
-
 ## Prerequisites
 
 - **Java Development Kit (JDK)** version 8 or later.
 - **Java RMI Registry**.
 
-Ensure that both server and client machines have a working Java environment.
-
 ## How to Run the System
 
 ### 1. Compile the Code
 
-\`\`\`bash
+\`\`\` bash
 javac *.java
 \`\`\`
 
